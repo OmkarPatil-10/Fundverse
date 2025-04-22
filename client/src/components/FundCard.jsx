@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { tagType } from "../assets";
 import { daysLeft } from "../utils";
 import Jazzicon, { jsNumberForAddress } from "react-jazzicon";
+// import { calculateBarPercentage } from "../utils";
 
 const FundCard = ({
   id,

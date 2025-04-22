@@ -80,6 +80,7 @@ export const StateContextProvider = ({ children }) => {
     }
   }, [themeMode]);
 
+// this is for creating campaign
   const publishCampaign = async (form) => {
     try {
       const data = await createCampaign({
@@ -124,6 +125,7 @@ export const StateContextProvider = ({ children }) => {
       console.log("contract call failure", error);
     }
   };
+  
   const updateCampaign = async (form) => {
     if (isLoading) {
       console.log("Campaign update is already in progress. Skipping.");

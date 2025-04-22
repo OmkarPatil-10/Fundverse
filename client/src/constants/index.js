@@ -17,12 +17,12 @@ export const themeModes = [
 
 export const navlinks = [
   {
-    name: "Dashboard",
+    name: "Homepage",
     imgUrl: dashboard,
     route: "/",
   },
   {
-    name: "Campaign",
+    name: "Create",
     imgUrl: createCampaign,
     route: "/create-campaign",
   },
