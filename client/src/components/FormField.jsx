@@ -38,14 +38,14 @@ const FormField = ({
           className="py-[17px] sm:px-[25px] px-[20px] outline-none border-[1px] border-[#8b8b8b] dark:border-[#3a3a43]  font-epilogue text-black dark:text-white text-sm  rounded-xl sm:min-w-[300px] bg-[#f2f2f2] dark:bg-[#1c1c24]"
         >
           <option value="">Select any Category</option>
-          <option value="Fundraiser">Fundraiser</option>
-          <option value="Crisis Relief">Crisis Relief</option>
+          <option value="Healthcare">Healthcare</option>
           <option value="Emergency">Emergency</option>
           <option value="Education">Education</option>
           <option value="Medical">Medical</option>
-          <option value="Non-Profit">Non-Profit</option>
-          <option value="Personal">Personal</option>
+          <option value="Technology">Technology</option>
           <option value="Environment">Environment</option>
+          <option value="Finance">Finance</option>
+          <option value="Non-Profit">Non-Profit</option>
           <option value="Animals">Animals</option>
           <option value="Other">Other</option>
         </select>
