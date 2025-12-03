@@ -227,6 +227,17 @@ contract CrowdFunding {
             }
         }
 
+        // // Sort campaigns by deadline (active first, completed last)
+        // for (uint i = 0; i < allCampaigns.length; i++) {
+        //     for (uint j = i + 1; j < allCampaigns.length; j++) {
+        //         if (allCampaigns[i].deadline < allCampaigns[j].deadline) {
+        //             Campaign memory temp = allCampaigns[i];
+        //             allCampaigns[i] = allCampaigns[j];
+        //             allCampaigns[j] = temp;
+        //         }
+        //     }
+        // }
+
         return allCampaigns;
     }
 }
